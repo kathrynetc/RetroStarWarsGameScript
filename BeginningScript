@@ -9,7 +9,7 @@ while True:
         print("Wise descision, young one.")
         break
     else:
-        action_taken = input(f"A jedi never admits defeat{options}:").title()
+        action_taken = input(f"A jedi's weapon is peace{options}:").title()
         if action_taken in options:
             if credits >= options[action_taken]:
                 knapsack.append(action_taken)
