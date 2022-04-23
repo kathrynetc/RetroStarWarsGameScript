@@ -2,7 +2,7 @@
 
 credits = 500
 knapsack = []
-options = {"Run": 15, "Talk": 10, "Fight": 20, "Dance": 30, "Force Whirlwind": 100, "Lightsaber": 200, "Force Cloak": 100, "Force Lightning": 20000, "Force Choke": 10000}
+options = {"Run": 5, "Talk": 10, "Negotiate": 15, "Fight": 20, "Trade": 25, "Force Persuade": 30, "Force Whirlwind": 100, "Lightsaber": 200, "Double-Lightsaber": 250, "Force Cloak": 100, "Force Lightning": 20000, "Force Choke": 10000}
 
 while True:
     if credits <= 0:
