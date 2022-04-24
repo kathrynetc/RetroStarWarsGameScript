@@ -1,5 +1,7 @@
 # writing live a star wars game script that can be played via the python terminal +jmj+
 
+import pygame
+
 print("Type That's No Moon" to begin the game"):
 print("You are a force sensitive young adult in the outskirts of the Hosnian System. You are discovered by a Jedi Scout and recruited. Do you choose: (character development)
 
