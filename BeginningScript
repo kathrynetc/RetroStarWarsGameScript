@@ -6,7 +6,7 @@ Character creation loop:
 light side
     jedi
         female
-                padawan
+            padawan
                 counsular
                 guardian
                 sentinel
@@ -36,6 +36,8 @@ dark side
     sith
     sith lord
     sith maurader
+    dark lord of the sith
+    decrepit force of evil
     mercenary
 
 --
