@@ -1,5 +1,7 @@
 # writing live a star wars game script that can be played via the python terminal +jmj+
 
+print("Type That's No Moon" to begin the game"):
+print("You are a force sensitive young adult in the outskirts of the Hosnian System. You are discovered by a Jedi Scout and recruited. Do you choose: (character development)
 
 Character creation loop:
 
@@ -9,6 +11,7 @@ light side
             padawan
                 counsular
                 guardian
+                healer
                 sentinel
                 counsel-member
                 defender of the peace
@@ -16,6 +19,7 @@ light side
             padawan
                 counsular
                 guardian
+                healer
                 sentinel
                 counsel-member
                 defender of the peace
@@ -25,20 +29,27 @@ smugglers and rogues
         smuggler
         grey jedi
         cook
+        banker
+        senator
         mandalorian bounty hunter
      male
         rouge merchant
         smuggler
         grey jedi
         cook
+        banker
+        senator
         mandalorian bounty hunter
 dark side
-    sith
-    sith lord
-    sith maurader
-    dark lord of the sith
-    decrepit force of evil
-    mercenary
+        mob boss
+        thug
+        sith
+        sith lord
+        sith maurader
+        dark lord of the sith
+        decrepit force of evil
+        mercenary
+
 
 --
 Begin campaign?
