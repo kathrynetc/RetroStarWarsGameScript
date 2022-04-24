@@ -1,7 +1,44 @@
 # writing live a star wars game script that can be played via the python terminal +jmj+
 
 
+Character creation loop:
 
+light side
+    jedi
+        female
+                padawan
+                counsular
+                guardian
+                sentinel
+                counsel-member
+                defender of the peace
+        male
+            padawan
+                counsular
+                guardian
+                sentinel
+                counsel-member
+                defender of the peace
+smugglers and rogues
+    female
+        rouge merchant
+        smuggler
+        grey jedi
+        cook
+        mandalorian bounty hunter
+     male
+        rouge merchant
+        smuggler
+        grey jedi
+        cook
+        mandalorian bounty hunter
+dark side
+    sith
+    sith lord
+    sith maurader
+    mercenary
+
+--
 Begin campaign?
 if yes,
 
