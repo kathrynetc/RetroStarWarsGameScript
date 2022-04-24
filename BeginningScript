@@ -1,25 +1,31 @@
-# writing live a star wars game script that can be played via the python terminal
+# writing live a star wars game script that can be played via the python terminal +jmj+
 
-credits = 500
-knapsack = []
-options = {"Run": 5, "Talk": 10, "Negotiate": 15, "Fight": 20, "Trade": 25, "Force Persuade": 30, "Force Whirlwind": 100, "Lightsaber": 200, "Double-Lightsaber": 250, "Force Cloak": 100, "Force Lightning": 20000, "Force Choke": 10000}
 
-while True:
-    if credits <= 0:
-        print("Wise descision, young one.")
-        break
-    else:
-        action_taken = input(f"A jedi's weapon is peace{options}:").title()
-        if action_taken in options:
-            if credits >= options[action_taken]:
-                knapsack.append(action_taken)
-                credits -= options[action_taken]
-                print(f"Khapsack: {action_taken} \nCredits left: {credits}")
-            else:
-                print("You don't know the power of the dark side. GAME OVER.")
+
+Begin campaign?
+if yes,
+
+    credits = 500
+    knapsack = []
+    options = {"Run": 5, "Talk": 10, "Negotiate": 15, "Fight": 20, "Trade": 25, "Force Persuade": 30, "Force Whirlwind": 100, "Lightsaber": 200, "Double-Lightsaber": 250, "Force Cloak": 100, "Force Lightning": 20000, "Force Choke": 10000}
+
+    while True:
+        if credits <= 0:
+            print("Wise descision, young one.")
+            break
         else:
-            print("I am a Jedi, like my father before me.")
+            action_taken = input(f"A jedi's weapon is peace{options}:").title()
+            if action_taken in options:
+                if credits >= options[action_taken]:
+                    knapsack.append(action_taken)
+                    credits -= options[action_taken]
+                    print(f"Knapsack: {action_taken} \nCredits left: {credits}")
+                else:
+                    print("You don't know the power of the dark side. GAME OVER.")
+            else:
+                print("I am a Jedi, like my father before me.")
 
-
+else:
+    print("Your master has trained you well...but you are not a jedi yet."
 # in progress as of 4/23/22
 #need: intro script, outline goals of the game, character, naming, etc
